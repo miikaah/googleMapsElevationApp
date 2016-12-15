@@ -1,0 +1,51 @@
+/*********************************
+*
+* Styles that overwrite bootstrap
+*
+**********************************/
+
+.elevation-input-group {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 4px;
+}
+
+.gm-style {
+  color: #000;
+  text-shadow: none;
+}
+
+#map {
+  min-height: 400px;
+  height: 70vh;
+}
+
+.info-link {
+  text-decoration: underline;
+}
+
+.masthead, .mastfoot, .cover-container {
+  max-width: 1000px;
+}
+
+@media (min-width: 1000px) {
+    .masthead, .mastfoot, .cover-container {
+      width: 70vw;
+    }
+}
+
+@media (min-width: 62em) {
+    .masthead, .mastfoot, .cover-container {
+      width: 100%;
+    }
+}
+
+@media (max-height: 760px) and (max-width: 48em) {
+    .masthead-brand {
+      margin-top: 0px;
+    }
+    #map {
+    min-height: 400px;
+    height: 50vh;
+  }
+}
